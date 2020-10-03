@@ -5,7 +5,7 @@
 }
 
 ion-content.background {
-  --background: url(../../assets/bg/home1.jpg) 0 0/100% 100% no-repeat;
+  --background: url(../../assets/bg/home5.jpg) 0 0/100% 100% no-repeat;
   // --background-color: #38908F !important;
   // --background: linear-gradient(#E08963,#E08963); 
   // --backgroud: url(./../../assets/bg/home.jpg); 
@@ -28,7 +28,7 @@ ion-content.background {
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
 }
 
@@ -48,4 +48,10 @@ ion-content.background {
 
 #container a {
   text-decoration: none;
+}
+#container img{
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
