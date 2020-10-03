@@ -1,6 +1,30 @@
-#container {
-  text-align: center;
+* {
+  margin: 0;
+  padding:0;
+  display: block;
+}
 
+ion-content.background {
+  --background: url(../../assets/bg/home1.jpg) 0 0/100% 100% no-repeat;
+  // --background-color: #38908F !important;
+  // --background: linear-gradient(#E08963,#E08963); 
+  // --backgroud: url(./../../assets/bg/home.jpg); 
+  // background-size: 100% 100%;
+  // --background-repeat: no-repeat;
+  // --color: #fa801d5b;
+  // --border:0px;
+//   ion-item{
+//    --background: transparent !important;
+//    --color:rgb(223, 68, 7);
+//    font-family: 'Athiti', sans-serif;
+//  }
+//  h3{
+//    font-family: 'Athiti', sans-serif;
+//  }
+}
+
+#container {
+  text-align: center;  
   position: absolute;
   left: 0;
   right: 0;
